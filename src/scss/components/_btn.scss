@@ -1,0 +1,162 @@
+// 主要按鈕樣式
+.hotBtn {
+    background-color: $hot-color;
+    color: #fff !important;
+    border: none;
+    cursor: pointer;
+    border: 2px solid $hot-color;
+    &:hover {
+        background-color: darken($hot-color, 10%);
+        color: #fff;
+        transition: all .3s;
+        border: 2px solid darken($hot-color, 10%);
+    }
+    &:disabled {
+        cursor: no-drop;
+        opacity: 0.5;
+    }
+}
+// 亮色按鈕樣式
+.lightBtn {
+    background-color: $light-hot-color;
+    color: $hot-color;
+    border: none;
+    cursor: pointer;
+    border: 2px solid $light-hot-color;
+    &:hover {
+        background-color: $dark-light-hot-color;
+        color: #fff;
+        transition: all .3s;
+        border: 2px solid darken($dark-light-hot-color, 10%);
+    }
+    &:disabled {
+        cursor: no-drop;
+        opacity: 0.5;
+    }
+}
+// 主要按鈕樣式
+.darkBtn {
+    background-color: $dark-hot-color;
+    color: #fff !important;
+    border: none;
+    cursor: pointer;
+    border: 2px solid $dark-hot-color;
+    &:hover {
+        background-color: darken($dark-hot-color, 10%);
+        color: #fff;
+        transition: all .3s;
+        border: 2px solid darken($dark-hot-color, 10%);
+    }
+    &:disabled {
+        cursor: no-drop;
+        opacity: 0.5;
+    }
+}
+// 主要按鈕樣式
+.grayBtn {
+    background-color: $gray-color;
+    color: #fff !important;
+    border: none;
+    cursor: pointer;
+    border: 2px solid $gray-color;
+    &:hover {
+        background-color: darken($gray-color, 10%);
+        color: #fff;
+        transition: all .3s;
+        border: 2px solid darken($gray-color, 10%);
+    }
+    &:disabled {
+        cursor: no-drop;
+        opacity: 0.5;
+    }
+}
+// 次要按鈕樣式
+.secondBtn {
+    background-color: $second-color;
+    color: #fff !important;
+    border: none;
+    cursor: pointer;
+    border: 2px solid $second-color;
+    &:hover {
+        background-color: darken($second-color, 10%);
+        color: #fff;
+        transition: all .3s;
+        border: 2px solid darken($second-color, 10%);
+    }
+    &:disabled {
+        cursor: no-drop;
+        opacity: 0.5;
+    }
+}
+// 主要按鈕外框線樣式
+.hotBtn-outline {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid $hot-color;
+    color: $hot-color;
+    background-color: rgba(255,255,255,0);
+    cursor: pointer;
+    &:hover {
+        background-color: $hot-color;
+        color: #fff;
+        transition: all .3s;
+    }
+    &:disabled {
+        cursor: no-drop;
+        opacity: 0.5;
+    }
+}
+// 亮色按鈕外框線樣式 
+.lightBtn-outline {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid $light-hot-color;
+    color: $light-hot-color;
+    background-color: rgba(255,255,255,0);
+    cursor: pointer;
+    &:hover {
+        background-color: $hot-color;
+        color: #fff;
+        transition: all .3s;
+    }
+}
+// 次要按鈕外框線樣式
+.secondBtn-outline {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid $second-color;
+    color: $second-color;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0);
+    &:hover {
+        background-color: $second-color;
+        color: #fff;
+        transition: all .3s;
+    }
+    &:disabled {
+        cursor: no-drop;
+        opacity: 0.5;
+    }
+}
+
+.yellowBtn-ouline {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid $yellow-color;
+    color: $yellow-color;
+    background-color: rgba(255,255,255,0);
+    cursor: pointer;
+    &:hover {
+        background-color: $dark-yellow-color;
+        color: #fff;
+        transition: all .3s;
+    }
+    &:disabled {
+        cursor: no-drop;
+        opacity: 0.5;
+    }
+}

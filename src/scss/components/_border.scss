@@ -1,0 +1,59 @@
+// 圓角10px
+.borderRadius10 {
+    border-radius: 10px;
+}
+// 圓角50px
+.borderRadius20 {
+    border-radius: 20px;
+}
+
+// 主要顏色 border
+.hotBorder {
+    border-color: $hot-color;
+}
+
+// 主要顏色 亮色系 border
+.lightHotBorder {
+    border-color: $light-hot-color;
+}
+
+// 次要顏色 border
+.secondBorder {
+    border-color: $second-color;
+}
+
+// 灰色顏色 border
+.grayBorder {
+    border-color: $gray-color;
+}
+
+// 深藍色 border
+.blackBlueBorder {
+    border-color: $black-blue-color;
+}
+
+
+
+// border 寬度1px
+@for $i from 1 through 10 {
+    .borderWidth#{$i} {
+        border-width: $i + px;
+        border-style: solid;
+    }
+    .borderTopWidth#{$i} {
+        border-top-width: $i + px;
+        border-top-style: solid;
+    }
+    .borderBottomWidth#{$i} {
+        border-bottom-width: $i + px;
+        border-bottom-style: solid;
+    }
+    .borderLeftWidth#{$i} {
+        border-left-width: $i + px;
+        border-left-style: solid;
+    }
+    .borderRightWidth#{$i} {
+        border-right-width: $i + px;
+        border-right-style: solid;
+    }
+}

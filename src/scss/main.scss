@@ -1,0 +1,71 @@
+@import "var";
+/* vue 日期選擇器套件樣板 */
+@import "~vue2-datepicker/scss/index.scss";
+
+// 按鈕樣式
+@import "./components/btn";
+// 字體樣式
+@import "./components/font";
+// 背景樣式
+@import "./components/bg";
+// 客製化寬度
+@import "./components/width";
+// 客製化table
+@import "./components/table";
+// 客製化border
+@import "./components/border";
+// 客製化 滑入效果
+@import "./components/hover";
+// 客製化 漸層色
+@import "./components/gradient";
+// 客製化 陰影
+@import "./components/shadow";
+// google font 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+// 輸入匡驗證成功時樣式
+.is-success {
+    .el-form-item__content {
+        .el-input__inner {
+            border-color: $green-color !important;
+            color: $green-color !important;
+        }
+        .el-input__suffix {
+            color: $green-color !important;
+        }
+    }
+}
+
+// element ui table footer 樣式
+.el-table__footer {
+    td {
+        text-align: right;
+        &:nth-child(1) {
+            text-align: left;
+        }
+        .cell {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+    }
+}
+
+// 點擊滑鼠樣式
+.pointer {
+    cursor: pointer;
+}
+
+// component 切換時 滑入效果
+.component-fade-enter-active,
+.component-fade-leave-active {
+    transition: opacity 0.3s ease;
+}
+.component-fade-enter, .component-fade-leave-to
+/* .component-fade-leave-active for below version 2.1.8 */ {
+    opacity: 0;
+}

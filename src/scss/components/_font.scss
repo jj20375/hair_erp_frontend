@@ -1,0 +1,54 @@
+// 字體超大
+.font-xl {
+    font-size: 1.5rem;
+}
+// 字體大
+.font-lg {
+    font-size: 1.2rem !important;
+}
+// 字體小
+.font-sm {
+    font-size: 0.8rem !important;
+}
+// 字體小
+.font-xs {
+    font-size: 0.6rem;
+}
+// 手機版最小字體大小
+.font-mobile-sm {
+    @media screen and (max-width: 768px) {
+        font-size: 0.5rem;
+    }
+}
+// 主要字體顏色
+.hot-color {
+    color: $hot-color !important;
+}
+// 次要字體顏色
+.second-color {
+    color: $second-color !important;
+}
+// 主要字體顏色 亮色系
+.light-color {
+    color: $light-hot-color !important;
+}
+// 主要字體顏色 深色系
+.dark-color {
+    color: $dark-hot-color !important;
+}
+// 紅色字體顏色
+.red-color {
+    color: $red-color !important;
+}
+// 灰色字體顏色
+.gray-color {
+    color: $gray-color !important;
+}
+// 黃色字體顏色
+.yellow-color {
+    color: $yellow-color !important;
+}
+// 綠色字體顏色
+.green-color {
+    color: $green-color !important;
+}

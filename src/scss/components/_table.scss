@@ -1,0 +1,30 @@
+// element ui table 樣式客製化
+.el-table th {
+    background-color: $hot-color !important;
+    color: #fff !important;
+}
+// element ui table 樣式客製化
+.el-table thead th {
+    border-top: none !important;
+}
+
+// 如果要點擊進入詳細頁時可以套用
+.title {
+    cursor: pointer;
+    &:hover {
+        color: $hot-color;
+        transition: all 0.3s;
+    }
+}
+
+.myTable {
+    tr {
+        &:nth-child(odd) {
+            background-color: lighten($light-hot-color, 10%);
+        }
+        &:hover {
+            transition: all .3s;
+            background-color: lighten($gray-color,30%) !important;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+// 手機版 100% 電腦版auto
+.width100 {
+    width: auto;
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    } 
+}
